@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Szablon</title>
+    <style>
+       body {
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* Kolor tła strony */
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left-bar, .right-bar {
+            width: 10px; /* Szerokość paska */
+            background-color: #888; /* Kolor paska */
+        }
+        .content {
+            flex: 1;
+            padding: 20px; /* Dla celów demonstracyjnych, abyś mógł zobaczyć obszar zawartości */
+        }
+
+
+        .naglowek {
+            background-color: red;
+            padding: 17.5px 200px 17.5px 200px;
+            color: white;
+            text-align: center;
+        }
+
+        .strona {
+            background-color: yellow;
+            padding: 400px 200px 400px 200px;
+            color:white;
+            text-align: center;
+        }
+
+        .stopka {
+            background-color: blue;
+            padding: 15px 200px 15px 200px;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="naglowek">Nagłówek</div>
+    <div class="strona">Strona</div>
+    <div class="stopka">Stopka</div>
+    <div class="left-bar"></div>
+    <div class="content"></div>
+    <div class="right-bar"></div>
+
+</body>
+</html>

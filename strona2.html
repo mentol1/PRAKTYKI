@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 20px;
+      }
+
+      .aqua {
+        background-color: aqua;
+        text-align: center;
+        color: black;
+        padding: 7.5px 450px 7.5px 450px;
+      }
+      .poziom {
+        height: 30px;
+        width: 100%;
+        background: linear-gradient(
+          to right,
+          pink 0%,
+          pink 33%,
+          orange 33%,
+          orange 66%,
+          yellow 66%,
+          yellow 100%
+        );
+      }
+
+      .pion {
+        height: 800px;
+        width: 25%;
+        float: left;
+      }
+
+      #yellow {
+        background-color: yellow;
+      }
+      #red {
+        background-color: red;
+      }
+      #green {
+        background-color: green;
+      }
+      #blue {
+        background-color: blue;
+      }
+
+      .dol {
+        height: 30px;
+        width: 100%;
+        background-color: black;
+        z-index: 1000;
+        
+        background: linear-gradient(
+          to right,
+          aqua 0%,
+          aqua 66%,
+          yellow 66%,
+          yellow 100% );
+        
+      }
+    </style>
+    <div class="aqua"></div>
+    <div class="poziom"></div>
+
+    <div style="height: 800px;">
+
+        <div id="yellow" class="pion"></div>
+        <div id="red" class="pion"></div>
+        <div id="green" class="pion"></div>
+        <div id="blue" class="pion"></div> 
+
+    </div>
+    <div class="dol">d</div>
+  </body>
+</html>

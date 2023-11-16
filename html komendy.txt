@@ -1,0 +1,21 @@
+<strong> -pogrubia teskt
+<em>- napis pod skosem
+<small>- zmiejsza teskt 
+<br/> wyznacza w srodku zdania linie :
+fjiudsfjisdfjsfdjjfidsjf
+jjfisfjsfjsd  <----
+fsdfsdfsfsdfsdfshgfndfhh
+<hr>-stawia linie 
+<a href="link" - jaką strone pokazać po kliknieciu w link 
+<img src="" alt=""/> - wprowadzenie obrazku
+alt- skrócony opis obrazka najczesciej dla niewidomych
+table-tworzy tabele
+th-sluzy do wyswietlania czegos co bedzie nad kolumna(nazwa kolumny)
+<tr><tr/>- tworzy rząd
+<td>tresc<td/>-tworzenie komórek w rzędach 
+
+<ul><ul/>-tworzy listy nienumerowane
+<ol><ol/>-tworzy list numerowane
+<li> - tworzy się elementy w listach 
+class-lączy się z plikiem css
+font-size-zmienianie koloru czcionki

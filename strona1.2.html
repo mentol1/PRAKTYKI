@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Szablon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+            background-color: grey; /* Kolor tła strony */
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* 100% wysokości widoku */
+        }
+
+        .kontener {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .bok {
+            flex: 0 0 50px; /* Stała szerokość 50px, nieelastyczny */
+            background-color: grey;
+        }
+
+        .tresc {
+            flex-grow: 1; /* Pozwala sekcji "tresc" rosnąć, aby zajmować dostępne miejsce */
+            background-color: white; /* Kolor tła strony z zawartością */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .naglowek,
+        .strona,
+        .stopka {
+            padding: 20px 200px;
+            text-align: center;
+            color: white;
+        }
+
+        .strona {
+            padding: 400px 200px;
+            color: rgb(245, 244, 244);
+        }
+    </style>
+</head>
+<body>
+    <div class="kontener">
+        <div class="bok"></div>
+        <div class="tresc">
